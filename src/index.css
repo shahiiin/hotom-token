@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  body {
+    @apply bg-white dark:bg-indigo-1000;
+  }
+  .partnerBg {
+    --tw-bg-opacity: 1;
+    background: rgb(3 18 34 / var(--tw-bg-opacity));
+  }
+  .cardBg {
+    --tw-bg-opacity: 1;
+    background: rgb(11 32 60);
+  }
+  .sectionBg {
+    background: linear-gradient(
+      100.1deg,
+      #132878 -3.95%,
+      #03192f 21.83%,
+      #021326 98.76%,
+      #00460f 103.65%
+    );
+  }
+
+  .sectionInfo {
+    background-image: linear-gradient(
+      89.89deg,
+      #0b2037 -0.12%,
+      transparent 95.76%
+    );
+  }
+}
+@tailwind utilities;
